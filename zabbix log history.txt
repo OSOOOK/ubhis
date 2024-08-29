@@ -1,0 +1,473 @@
+root@st2:/tmp# cat history
+apt install mc
+apt install net tools
+ex
+apt install mc
+apt install net tools
+apt install nmap
+apt install wireshark
+apt update && apt -y upgrade
+apt install apache2
+apt install php php-{cgi,common,mbstring,net-socket,gd,xml-util,mysql,bcmath,imap,snmp}
+apt install libapache2-mod-php
+wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu22.04_all.deb
+dpkg -i zabbix-release_7.0-2+ubuntu22.04_all.deb
+apt update
+apt upgade
+apt upgrade
+apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+mysql -u root -p
+apt install -y mysql-server
+apt install zabbix-server-mysql
+apt install zabbix-frontend-php
+mysql -u root -p
+zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix_user -p zabbix_db
+mysql -u root -p
+mc
+service ssh restart
+service ssh status
+mc
+systemctl restart zabbix-server zabbix-agent nginx php8.2-fpm
+systemctl restart zabbix-server zabbix-agent apache2
+systemctl enable zabbix-server zabbix-agent apache2
+dpkg-reconfigure
+dpkg-reconfigure loccales
+dpkg-reconfigure locales
+locale
+dpkg-reconfigure locales
+locale
+poweroff
+locale
+mc
+netplan try
+ifconfig
+mc
+netplan try
+mc
+netplan try
+ifconfig
+mc
+netplan try
+rebbot
+reboot
+systemctl enable zabbix-server zabbix-agent apache2
+systemctl restart  zabbix-server zabbix-agent apache2
+systemctl status  zabbix-server zabbix-agent apache2
+reboot
+cat zabbix_server.conf | grep -i 172
+cat zabbix_server.conf
+systemctl stop  zabbix-server zabbix-agent apache2
+systemctl restart  zabbix-server zabbix-agent apache2
+systemctl start  zabbix-server zabbix-agent apache2
+systemctl status  zabbix-server zabbix-agent apache2
+netstat -nl | grep 10051~
+netstat -nl | grep 10051
+mc
+reboot
+mc
+netstat -nl | grep 10051
+systemctl start  zabbix-server zabbix-agent apache2
+systemctl restart  zabbix-server zabbix-agent apache2
+netpan apply
+reboot
+reboot
+cd ..
+cd etc
+cd zabbix
+ls
+nano zabbix_server.conf
+cat  zabbix_server.conf
+cat  zabbix_agentd.conf
+netplan
+netstat -nl
+setsebool -P httpd_can_network_connect=true
+iptables -A INPUT -p tcp –d 10051 -j ACCEPT
+iptables -A INPUT -p tcp –d port 10051 -j ACCEPT
+iptables -A INPUT -p tcp  10051 -j ACCEPT
+service start zabbix-server
+service zabbix-server start
+service zabbix-server status
+ls
+cd web
+ls
+cat zabbix.conf.php
+nano  zabbix.conf.php
+systemctl restart zabbix-server zabbix-agent apache2
+netplan -nl
+netstat -nl
+nano  zabbix.conf.php
+systemctl restart zabbix-server zabbix-agent apache2
+cd ..
+nano zabbix_server.conf
+cd web/
+nano zabbix.conf.php
+cd ..
+nano zabbix_server.conf
+systemctl restart zabbix-server zabbix-agent apache2
+cd web
+nano zabbix.conf.php
+systemctl restart zabbix-server zabbix-agent apache2
+nano zabbix.conf.php
+systemctl restart zabbix-server zabbix-agent apache2
+ping localhost
+cd ..
+ls
+cat zabbix_server.conf
+cat zabbix_server.conf | grep -i password
+ifconfig
+mc
+logaut
+exit
+mc
+mysql -u root -p
+mc
+apt install ?
+apt install
+apt install zabbix-server-mysql
+apt reinstall zabbix-server-mysql
+mc
+ifconfig
+mc
+systemctl start  zabbix-server zabbix-agent apache2
+systemctl restart  zabbix-server zabbix-agent apache2
+mc
+systemctl restart  zabbix-server zabbix-agent apache2
+exit
+tail -f /var/log/zabbix/zabbix_server.log
+cd ..
+cd etc
+cd ..
+cd var
+cd lib
+cd mysql
+ls
+ls -al
+ls
+cd ..
+ls
+cd ..
+cd etc
+ls
+cd zabbix/
+ls
+cat zabbix_server.conf
+ls
+cat zabbix_agentd.conf
+mc
+tail -f /var/log/zabbix/zabbix_server.log
+cd ..
+cd..
+ls
+cd var
+cd lib
+cd mysql
+ls
+cd ..
+cd etc
+ls
+cd mysql
+ks
+ls
+cat mysql.cnf | grep i- binlog_expire_logs_seconds
+cat mysql.cnf | grep i- binlog_expire
+cat mysql.cnf
+cd mysql.conf.d
+ls
+cat mysql.cnf
+cat mysqld.cnf
+nano mysqld.cnd
+nano mysql.cnf
+nano mysqld.cnf
+service mysql restart
+nano ssh_config
+service ssh restart
+ssh j.baldy@10.112.196.10
+nano ssh_config
+service ssh restart
+ssh j.baldy@10.112.196.10
+cd ..
+cd home
+ls
+cd st2
+ssh-keygen -t rsa
+ssh j.baldy@10.112.196.10
+ls
+ls -al
+cd .ssh
+ls
+nano config
+service ssh restart
+ssh j.baldy@10.112.196.10
+ssh Host ip.ip.ip.ip
+ssh -oHostKeyAlgorithms=+ssh-rsa  j.baldy@10.112.196.10
+ssh -oHostKeyAlgorithms=+ssh-rsa  10.112.196.10
+ssh-keygen -R 10.112.196.10
+ssh-heygen
+ssh-keygen
+ssh -oHostKeyAlgorithms=+ssh-rsa  10.112.196.10
+ssh2 -oHostKeyAlgorithms=+ssh-rsa  10.112.196.10
+service ssh status
+ls
+cat config
+ssh -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.196.10
+cd /etc/ssh
+ls
+nano ssh_config
+service ssh restart
+ssh -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.196.10
+ssh  j.baldy@10.112.196.10
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.196.10
+service ssh status
+service ssh version
+ssh -help
+ls
+nano sshd_config
+cd ..
+ls
+cd root
+ls
+cd ..
+cd home
+ls
+cd st2
+ls
+ls -la
+cd .ssh
+ls
+cd ..
+cd root
+ssh-keygen
+ls
+ls -al
+cd .ssh
+ls
+cd ..
+ssh-keygen -t rsa
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.196.10
+ls
+ls -al
+cd .ssh
+ls
+ls -al
+mkdir known_hosts
+cd known_hosts
+ssh-keyscan -t 10.112.196.10
+ssh-keyscan -t rsa 10.112.196.10
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.196.10
+cd ..
+ls
+cd ..
+cd home
+cd st
+ls
+cd st2
+ls
+ls -al
+cd .ssh
+l
+ssh -v  j.baldy@10.112.196.10
+cd ..
+cd etc
+cd ssh
+ls
+ssh -o StrictHostKeyChecking=no 10.112.196.10
+cat ssh_config
+cd ..
+cd root
+ls
+ssh-keygen -t rsa
+systemctl restart sshd
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.196.10
+ls
+cd ..
+cd etc
+cd ssh
+ls -al
+cd ..
+cd home
+ls
+cd st2
+ls
+ls -al
+cd .ssh
+ls -al
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.126.10
+ls
+cat config
+rm config
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.126.10
+ls
+cd ..
+ls
+cd /etc/ssh
+ls
+cd ssh_config.d
+ls
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.126.10
+cd ..
+cd home
+cd st2
+cd .ssh
+nano config
+service ssh restart
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.126.10
+cd ..
+ls
+cd root
+ls
+ls -al
+cd .ssh
+ls
+cd ..
+ls
+cd /root/.ssh
+ls
+ls -al
+ldd /usr/sbin/zabbix_server | grep ssh
+cd /usr/sbin/zabbix_server
+cd /usr/sbin/
+ls
+ldd /usr/sbin/zabbix_server | grep key
+cd /root/.ssh
+ls
+ssh -v  -oHostKeyAlgorithms=+ssh-rsa j.baldy@10.112.126.10
+ls -al
+cd /var/lib/mysql | ls -al
+cd /var/lib/mysql
+ls -al
+cd /etc/zabbix
+ls
+nano zabbix_server.conf
+service zabbix-server status
+service zabbix-server restart
+service zabbix-server status
+ls
+mc
+tail -f /var/log/zabbix/zabbix_server.log
+mc
+service ssh restart
+service ssh status
+mc
+tail -f /var/log/zabbix/zabbix_server.log
+tail /var/log/zabbix/zabbix_server.log
+tail -f /var/log/zabbix/zabbix_server.log
+cd /etc/zabbix
+cat
+ls
+cat zabbix_server.conf | grep -i StartReportWriters
+nano zabbix_server.conf
+
+service zabbix-server restart
+service zabbix-server status
+ifconfig
+tail -f /var/log/zabbix/zabbix_server.log
+cd /home/st2
+ls
+mkdir zabbix_log
+cd zabbix
+cd zabbix_log
+tail -f /var/log/zabbix/zabbix_server.log >> zabbix-log
+ls
+cat zabbix-log
+tail -f /var/log/zabbix/zabbix_server.log >> zabbix-log
+df -h
+ping wp.pl
+ccd ..
+cd ..
+df -h
+cd etc/zabbix
+cd /etc/zabbix
+ls
+cat zabbix_server.conf
+df -h
+cd /var/lib/zabbix
+df -h
+cd var/lib/mysql
+cd /var
+ls
+cd lib
+ls
+cd mysql
+ls
+ls -al
+file binlog.000418
+cd etc/zabbix
+cd etc/
+cd /etc
+ls
+cd zabbix
+ls
+cat zabbix_server.conf | grep -i log
+cat zabbix_server.conf | grep -i second
+cat zabbix_server.conf
+ls
+cat zabbix_agentd.conf
+cd ..
+cd mysql
+ls
+cat mysql.cnf
+ls
+cd mysql.conf.d
+ls
+cat mysql.cnf
+cat mysql.conf.d
+cat mysqld.cnf
+cd /var/lib/mysql
+ls -al
+cd /etc/mysql
+ls
+cd mysql.conf.d/
+ls
+firewall-cmd --list-all
+nano mysqld.cnf
+service mysql status
+service mysql restart
+service mysql status
+cat  mysqld.cnf
+DF -H
+df -h
+cd /var/lib/mysql
+ls -al
+service apache2 status
+cd etc/apache
+cd etc
+cd ..
+cd etc
+cd apache
+ls
+cd apache2
+ls
+cat apache2.conf | grep -i size
+cat apache2.conf | grep  size
+cat apache2.conf
+cd ..
+cd php
+ls
+cd ..
+cd /usr/share/zabbix/include/classes/setup
+ls
+cat CFrontendSetup.php } grep size
+cat CFrontendSetup.php | grep size
+cat CFrontendSetup.php | grep -i size
+nano CFrontendSetup.php
+cd /etc/apache2/conf-available
+ls
+
+cat zabbix.conf | grep -i size
+nano zabbix.conf
+service php status
+systemctl restart zabbix-server apache2
+systemctl status  zabbix-server apache2
+ls
+cat zabbix.conf
+cd /etc/apache2/conf-available
+ls
+cd /etc/apache2/conf-available
+nano zabbix.conf
+systemctl status  zabbix-server apache2
+systemctl restart  zabbix-server zabbix-agent  apache2
+cd /root/config
+cd /usr/share/zabbix/include/classes/setup
+ls
+cat CFrontendSetup.php
+root@st2:/tmp#
